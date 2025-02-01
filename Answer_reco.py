@@ -120,7 +120,7 @@ def process_pdf_and_analyze(pdf_path, output_image_path, api_key):
 if __name__ == "__main__":
   pdf_path = "./test1.pdf"
   output_image_path = "./output_image.png"
-  api_key = "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"
+  api_key = "your_api_key"
  
   results = process_pdf_and_analyze(pdf_path, output_image_path, api_key)
   # JSON 결과 출력
