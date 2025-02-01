@@ -91,7 +91,7 @@ def main():
   # 경로와 API 키 설정
   pdf_path = "./physics.pdf"
   output_path = "output_answers.json"
-  api_key = "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"
+  api_key = "your_api_key"
  
   try:
       # PDF에서 텍스트 추출
