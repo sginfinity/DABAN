@@ -4,7 +4,7 @@ import json
 import re  # 정규식 사용을 위한 import
 
 # OpenAI API 키 설정
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="GPT_API_KEY")
 
 # 이미지 파일 읽기 및 Base64 인코딩
 image_path = "student_answer05.jpg"
